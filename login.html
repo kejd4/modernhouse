@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>로그인 | 모던하우스</title>
+ <link rel="stylesheet" href="./css/reset.css">
+ <link rel="stylesheet" href="./css/common.css">
+ <link rel="stylesheet" href="./css/login.css">
+ <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+ <script src="https://kit.fontawesome.com/4dc87784b3.js" crossorigin="anonymous"></script>
+ <script src="./js/common.js" defer></script>
+</head>
+<body>
+ <div class="wrap">
+  <header id="header">
+   <div class="container">
+    <div class="htop">
+     <div class="logo">
+      <a href="index.html">
+       <img src="img/tlogo.png" alt="x">
+      </a>
+     </div>
+     <!-- logo end -->
+     <div class="login">
+      <ul>
+       <li><a href="login.html">로그인</a><span>|</span></li>
+       <li><a href="join.html">회원가입</a><span>|</span></li>
+       <li class="center"><p>고객센터</p>
+        <ul class="center_list">
+         <li><a href="notice.html">공지사항</a></li>
+         <li><a href="#">자주하는문의</a></li>
+         <li><a href="#">1:1문의</a></li>
+         <li><a href="#">제안하기</a></li>
+        </ul>
+       </li>
+      </ul>
+     </div>
+     <!-- login end -->
+    </div>
+    <!-- htop end -->
+<div class="hbottom">
+ <div class="left">
+  <ul class="category">
+   <li>
+    <p><span>카테고리</span></p>
+   </li>
+   <ul class="sub_category">
+    <li><a href="#"><img src="./img/m1.gif" alt="x"><p>디즈니</p></a></li>
+    <li><a href="#"><img src="./img/m2.png" alt="x"><p>크리스마스</p></a></li>
+    <li><a href="#"><img src="./img/m3.png" alt="x"><p>주방</p></a></li>
+    <li><a href="#"><img src="./img/m4.png" alt="x"><p>패브릭</p></a></li>
+    <li><a href="#"><img src="./img/m5.png" alt="x"><p>가구</p></a></li>
+    <li><a href="#"><img src="./img/m6.png" alt="x"><p>키즈</p></a></li>
+    <li><a href="#"><img src="./img/m7.png" alt="x"><p>린넨앤키친</p></a></li>
+    <li><a href="#"><img src="./img/m8.png" alt="x"><p>욕실/생활</p></a></li>
+    <li><a href="#"><img src="./img/m9.png" alt="x"><p>홈데코</p></a></li>
+    <li><a href="#"><img src="./img/m10.png" alt="x"><p>가전/라이프</p></a></li>
+   </ul>
+  </ul>
+<!-- category end -->
+<ul class="menu">
+  <li><a href="#">모던샵</a></li>
+  <li><a href="#">버터샵</a></li>
+ </ul>
+     </div>
+     <!-- left end -->
+     <div class="right">
+      <form action="" method="get">
+       <ul class="search">
+        <li><input type="text" placeholder=""><img src="./img/search-icon.svg" alt="x"></li>
+       </ul>
+      </form>
+      <!-- search form end -->
+      <div class="my">
+       <ul>
+        <li><a href="#"><img src="./img/wish-icon.svg" alt="x"></a></li>
+        <li><a href="#"><img src="./img/icon_call.png" alt="x"></a></li>
+        <li><a href="#"><img src="./img/cart-icon.svg" alt="x"></a></li>
+       </ul>
+      </div>
+      <!-- my end -->
+     </div>
+     <!-- right end -->
+    </div>
+    <!-- hbottom end -->
+   </div>
+   <!-- header container end -->
+  </header>
+  <!-- header end -->
+  <div class="header_null"></div>
+  <!-- header에 fixed값으로 인해 nav영역에 겹쳐짐 >> 이를 방지하기위해 빈박스한개 생성 -->
+
+<section id="contents">
+ <div class="login_wrap">
+  <div class="tit">
+   <p>로그인</p>
+  </div>
+  <div class="login_box">
+   <form action="" method="post">
+    <ul class="id_field">
+     <li><p><input type="text" placeholder="아이디를 입력해주세요"></p></li>
+     <li><p><input type="password" placeholder="비밀번호를 입력해주세요"></p></li>
+    </ul>
+    <!-- id_field end -->
+    <ul class="find">
+     <li>
+      <input type="checkbox" id="id_check">
+      <label for="id_check">아이디저장</label>
+     </li>
+     <li>
+      <a href="#">아이디 찾기</a>
+      <span>|</span>
+      <a href="#">비밀번호 찾기</a>
+     </li>
+    </ul>
+    <!-- find end -->
+    <ul class="btn">
+     <li class="login_btn"><button type="button">로그인</button></li>
+     <li class="join_btn"><button type="button">회원가입</button></li>
+    </ul>
+    <!-- btn end -->
+    <ul class="sns_login">
+     <li><img src="./img/sns-naver.svg" alt="x"><p>네이버 간편로그인</p></li>
+     <li><img src="./img/sns-kakao.svg" alt="x"><p>카카오 간편로그인</p></li>
+    </ul>
+    <!-- sns_login end -->
+   </form>
+  </div>
+ </div>
+ <!-- login_wrap end -->
+</section>
+<!-- contenst end -->
+
+<footer id="footer">
+  <div class="container">
+   <div class="copyright">
+    <div class="tit">
+     <img src="./img/flogo.png" alt="x">
+    </div>
+    <div class="copy">
+     <p>주소 :
+       서울특별시 구로구 경인로 662 (디큐브시티) 14층<br>
+      회사명 : MH&Co. <br>
+      대표이사 : 오상흔 <br>
+      사업자등록번호 : 821-87-00617 <br>
+      통신판매업번호 : 2017-서울구로-1368l <br>
+      개인정보책임자 : 이효영 <br>
+      copyright. 2020. modernhousemall.com. All rights reserved.</p>
+     <p class="fco">고객님은 안전거래를 위해 결제 시 <br> 저희 사이트에서 가입한 구매안전 서비스를 이용하실 수 있습니다. <br>
+      <a href="#">KCP 가입 확인</a> </p>
+   </div>
+ </div>
+ <!-- copyright end -->
+ <div class="center">
+  <div class="tit">
+   <p>고객센터</p>
+  </div>
+  <div class="counsel">
+   <ul>
+     <li><a href="#">1:1 고객문의 ></a></li>
+     <li><a href="#">대량구매(OEM)·협찬·입점제의 ></a></li>
+     <li class="number"><a href="#">1899-0811</a></li>
+     <li><span>평일 09:00 - 17:00 ㅣ 점심시간 11:30 - 12:30</span></li>
+   </ul>
+  </div>
+  <div class="instar">
+   <a href="#"><img src="./img/footer_sns01.png" alt="x"></a>
+   <a href="#"><img src="./img/footer_sns03.png" alt="x"></a>
+   <a href="#"><img src="./img/footer_sns04.png" alt="x"></a>
+   <a href="#"><img src="./img/footer_sns05.png" alt="x"></a>
+  </div>
+ </div>
+ <!-- center end -->
+ <div class="fmenu">
+   <a href="#">회사소개</a>
+   <a href="#">공지사항</a>
+   <a href="#">이용약관</a>
+   <a href="#"><strong>개인정보처리방침</strong></a>
+   <a href="#">인재채용</a>
+   <a href="#">1:1문의</a>
+ </div>
+ <!-- fmenu end -->
+     </div>
+   </footer>
+   <!-- footer end -->
+ </div>
+ <!-- wrap end -->
+
+ <div class="side_btn">
+  <ul>
+   <li id="message"><img id="m_open" src="./img/message.webp" alt="x"><i id="m_close" class="fa-solid fa-xmark"></i></li>
+   <li><a href="#"><img src="./img/category-icon1.svg" alt="x"></a></li>
+   <li id="topBtn"><img src="./img/top-btn.svg" alt="x"></li>
+  </ul>
+ </div>
+
+<div class="message_wrap">
+  <div class="message_box">
+    <div class="home">
+      <div class="tit">
+        <ul>
+          <li><img src="./img/imecotxt.webp" alt="x"></li>
+          <li><p>아임에코몰</p><span>운영시간보기 ></span></li>
+        </ul>
+      </div>
+      <!-- tit end -->
+      <div class="txt">
+        <div class="info">
+          <ul>
+            <li><img src="./img/imecotxt.webp" alt="x"></li>
+            <li><p>아임에코몰</p><span>아임에코몰에 오신 것을 환영해요😄<br>궁금한 사항을 선택해 주세요.</span></li>
+          </ul>
+        </div>
+        <!-- info end -->
+        <div class="inquiry">
+          <button>문의하기<i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+        <div class="info_txt">
+          <p><span>●</span>몇 분 내에 답변 받으실 수 있어요</p>
+        </div>
+      </div>
+      <!-- txt end -->
+      <div class="call">
+        <p>다른방법으로 문의</p>
+        <i class="fa-solid fa-phone"></i>
+      </div>
+      <!-- call end -->
+      <div class="channel">
+        <p>채널톡 이용중</p>
+      </div>
+    </div>
+    <!-- home end -->
+  </div>
+  <!-- message_box end -->
+   <div class="message_menu">
+    <ul>
+      <li><i class="fa-solid fa-house"></i><p>홈</p></li>
+      <li><i class="fa-solid fa-comment"></i><p>대화</p></li>
+      <li><i class="fa-solid fa-gear"></i><p>설정</p></li>
+    </ul>
+   </div>
+   <!-- message_menu end -->
+</div>
+<!-- message_wrap end -->
+
+</body>
+</html>

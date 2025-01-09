@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>모던하우스</title>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+ <link rel="stylesheet" href="./css/reset.css">
+ <link rel="stylesheet" href="./css/common.css">
+ <link rel="stylesheet" href="./css/style.css">
+ <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+ <script src="https://kit.fontawesome.com/4dc87784b3.js" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <script src="./js/common.js" defer></script>
+ <script src="./js/script.js" defer></script>
+</head>
+<body>
+ <div class="wrap">
+  <header id="header">
+   <div class="container">
+    <div class="htop">
+     <div class="logo">
+      <a href="index.html">
+       <img src="./img/tlogo.png" alt="x">
+      </a>
+     </div>
+     <!-- logo end -->
+     <div class="login">
+      <ul>
+       <li><a href="login.html">로그인</a><span>|</span></li>
+       <li><a href="join.html">회원가입</a><span>|</span></li>
+       <li class="center"><p>고객센터</p>
+        <ul class="center_list">
+         <li><a href="notice.html">공지사항</a></li>
+         <li><a href="#">자주하는문의</a></li>
+         <li><a href="#">1:1문의</a></li>
+         <li><a href="#">제안하기</a></li>
+        </ul>
+       </li>
+      </ul>
+     </div>
+     <!-- login end -->
+    </div>
+    <!-- htop end -->
+<div class="hbottom">
+ <div class="left">
+  <ul class="category">
+   <li>
+    <p><span>카테고리</span></p>
+   </li>
+   <ul class="sub_category">
+    <li><a href="#"><img src="./img/m1.gif" alt="x"><p>디즈니</p></a></li>
+    <li><a href="#"><img src="./img/m2.png" alt="x"><p>크리스마스</p></a></li>
+    <li><a href="#"><img src="./img/m3.png" alt="x"><p>주방</p></a></li>
+    <li><a href="#"><img src="./img/m4.png" alt="x"><p>패브릭</p></a></li>
+    <li><a href="#"><img src="./img/m5.png" alt="x"><p>가구</p></a></li>
+    <li><a href="#"><img src="./img/m6.png" alt="x"><p>키즈</p></a></li>
+    <li><a href="#"><img src="./img/m7.png" alt="x"><p>린넨앤키친</p></a></li>
+    <li><a href="#"><img src="./img/m8.png" alt="x"><p>욕실/생활</p></a></li>
+    <li><a href="#"><img src="./img/m9.png" alt="x"><p>홈데코</p></a></li>
+    <li><a href="#"><img src="./img/m10.png" alt="x"><p>가전/라이프</p></a></li>
+   </ul>
+  </ul>
+<!-- category end -->
+      <ul class="menu">
+       <li><a href="#">모던샵</a></li>
+       <li><a href="#">버터샵</a></li>
+      </ul>
+     </div>
+     <!-- left end -->
+     <div class="right">
+      <form action="" method="get">
+       <ul class="search">
+        <li><input type="text"><img src="./img/search-icon.svg" alt="x"></li>
+       </ul>
+      </form>
+      <!-- search form end -->
+      <div class="my">
+       <ul>
+        <li><a href="#"><img src="./img/wish-icon.svg" alt="x"></a></li>
+        <li><a href="#"><img class="c" src="./img/icon_call.png" alt="x"></a></li>
+        <li><a href="#"><img src="./img/cart-icon.svg" alt="x"></a></li>
+       </ul>
+      </div>
+      <!-- my end -->
+     </div>
+     <!-- right end -->
+    </div>
+    <!-- hbottom end -->
+   </div>
+   <!-- header container end -->
+  </header>
+  <!-- header end -->
+  <div class="header_null"></div>
+  <!-- header에 fixed값으로 인해 nav영역에 겹쳐짐 >> 이를 방지하기위해 빈박스한개 생성 -->
+  <nav id="main">
+   <div class="container">
+    <div class="link_wrap">
+      <ul id="link_list">
+        <li><a href="#"><p><img src="./img/m1.gif" alt="x"></p><span>디즈니</span></a></li>
+        <li><a href="#"><p><img src="./img/m2.png" alt="x"></p><span>크리스마스</span></a></li>
+        <li><a href="#"><p><img src="./img/m3.png" alt="x"></p><span>주방</span></a></li>
+        <li><a href="#"><p><img src="./img/m4.png" alt="x"></p><span>패브릭</span></a></li>
+        <li><a href="#"><p><img src="./img/m5.png" alt="x"></p><span>가구</span></a></li>
+        <li><a href="#"><p><img src="./img/m6.png" alt="x"></p><span>키즈</span></a></li>
+        <li><a href="#"><p><img src="./img/m7.png" alt="x"></p><span>린넨앤키친</span></a></li>
+        <li><a href="#"><p><img src="./img/m8.png" alt="x"></p><span>욕실/생활</span></a></li>
+        <li><a href="#"><p><img src="./img/m9.png" alt="x"></p><span>홈데코</span></a></li>
+        <li><a href="#"><p><img src="./img/m10.png" alt="x"></p><span>가전/라이프</span></a></li>
+      </ul>
+    </div>
+    <!-- link_wrap end -->
+      <div id="prev">
+        <button type="button"><i class="fa-solid fa-angle-left"></i></button>
+      </div>
+      <div id="next">
+        <button type="button"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+   </div>
+   <div class="main_slide_wrap">
+<div class="slide s1">
+ <a href="#"><img src="./img/slide1.gif" alt="x"></a>
+</div>
+<div class="slide s2">
+ <a href="#"><img src="./img/slide2.jpg" alt="x"></a>
+</div>
+<div class="slide s3">
+ <a href="#"><img src="./img/slide3.jpg" alt="x"></a>
+</div>
+<div class="slide s4">
+ <a href="#"><img src="./img/slide4.gif" alt="x"></a>
+</div>
+</div><!-- main_slide_wrap -->
+   <!-- nav container -->
+  </nav>
+  <!-- main end -->
+  <section id="contents">
+   <div class="container">
+    <div class="con1">
+      <div class="tit">
+        <a href="#">이 달의 모던PICK ></a>
+      </div>
+      <!-- tit end -->
+      <div class="product_wrap">
+       <div class="product_box">
+        <a href="#">
+          <ul class="pro_img">
+            <li><img src="./img/pick1.jpg" alt="x"></li>
+          </ul>
+          <ul class="pro_tit">
+            <li>크리스마스 트리</li>
+          </ul>
+          <ul class="pro_txt">
+            <li>설렘 가득한 크리스마스트리 만들기!
+              다채로운 오너먼트와 전구를 활용해
+              멋스러운 크리스마스트리를 완성해보세요.
+            </li>
+          </ul>
+        </a>
+       </div>
+       <!-- product_box1 end -->
+       <div class="product_box">
+        <a href="#">
+          <ul class="pro_img">
+            <li><img src="./img/pick2.jpg" alt="x"></li>
+          </ul>
+          <ul class="pro_tit">
+            <li>3도씨 방한 패브릭</li>
+          </ul>
+          <ul class="pro_txt">
+            <li>집 안 곳곳 따듯하게 입히기!
+              올겨울에도 외풍, 한기를 막아
+              추울 틈 없이 건강한 겨울 보내세요.
+            </li>
+          </ul>
+        </a>
+       </div>
+       <!-- product_box2 end -->
+       <div class="product_box">
+        <a href="#">
+          <ul class="pro_img">
+            <li><img src="./img/pick3.jpg" alt="x"></li>
+          </ul>
+          <ul class="pro_tit">
+            <li>크리스마스 테이블웨어</li>
+          </ul>
+          <ul class="pro_txt">
+            <li>테이블에 연말 분위기 더하기!
+              파티, 집들이 등의 자리에서 따뜻한 연말 분위기를
+              더하기르 좋은 테이블웨어를 소개해요.
+            </li>
+          </ul>
+        </a>
+       </div>
+       <!-- product_box3 end -->
+       <div class="product_box">
+        <a href="#">
+          <ul class="pro_img">
+            <li><img src="./img/pick4.jpg" alt="x"></li>
+          </ul>
+          <ul class="pro_tit">
+            <li>포근한 키즈 겨울 침구</li>
+          </ul>
+          <ul class="pro_txt">
+            <li>엄마 품처럼 포근하고 편안하게!
+              부드러움을 극대화한 포근한 소재의
+              침구로 아이들의 달콤한 꿈을 지켜주세요.
+            </li>
+          </ul>
+        </a>
+       </div>
+       <!-- product_box4 end -->
+      </div>
+    </div>
+    <!-- con1 end -->
+<div class="con2">
+   <div class="tit">
+     <a href="#">고객님을 위한 맞춤 PICK! ></a>
+   </div>
+  <!-- con2 tit end -->
+  <div class="gshop_wrap">
+   <div class="gshop_box">
+    <a href="#">
+      <ul class="gs_img">
+        <li><img src="./img/P1.jpg" alt="x"></li>
+      </ul>
+      <ul class="gs_txt">
+        <li>잇츠삭스 소프트 스킨핏 양말 딥블랙</li>
+        <li><p class="price">2,900원</p></li>
+      </ul>
+    </a>
+   </div>
+   <!-- gshop_box1 end -->
+   <div class="gshop_box">
+    <a href="#">
+      <ul class="gs_img">
+        <li><img src="./img/P2.jpg" alt="x"></li>
+      </ul>
+      <ul class="gs_txt">
+        <li><span>ON 논슬립 흘러내리지 않는 공간절약 옷걸이 20P세트 오트밀</span></li>
+        <li><p class="price">19,900원</p></li>
+      </ul>
+    </a>
+   </div>
+   <!-- gshop_box2 end -->
+   <div class="gshop_box">
+    <a href="#">
+      <ul class="gs_img">
+        <li><img src="./img/P3.jpg" alt="x"></li>
+      </ul>
+      <ul class="gs_txt">
+        <li>소프트로이 디너젓가락 크림</li>
+        <li><p class="price">4,900원</p></li>
+      </ul>
+    </a>
+   </div>
+   <!-- gshop_box3 end -->
+   <div class="gshop_box">
+    <a href="#">
+      <ul class="gs_img">
+        <li><img src="./img/P4.jpg" alt="x"></li>
+      </ul>
+      <ul class="gs_txt">
+        <li>플리츠 아이스크림볼 230ml</li>
+        <li><p class="price">5,900원</p></li>
+      </ul>
+    </a>
+   </div>
+   <!-- gshop_box4 end -->
+   <div class="gshop_box">
+    <a href="#">
+      <ul class="gs_img">
+        <li><img src="./img/p5.jpg" alt="x"></li>
+      </ul>
+      <ul class="gs_txt">
+        <li><span>봄 플라워 아크릴 미니컵 260ml 블루꽃</span></li>
+        <li><p class="sale">50%</p><p class="cost">6,500원</p><p class="price">3,250원</p></li>
+      </ul>
+    </a>
+   </div>
+   <!-- gshop_box5 end -->
+   <div class="gshop_box">
+    <a href="#">
+      <ul class="gs_img">
+        <li><img src="./img/p6.jpg" alt="x"></li>
+      </ul>
+      <ul class="gs_txt">
+        <li><span>XMAS 메리티파티 스택 유리컵 4P 245ml</span></li>
+        <li><p class="price">12,900원</p></li>
+      </ul>
+    </a>
+   </div>
+   <!-- gshop_box6 end -->
+   <div class="gshop_box">
+    <a href="#">
+      <ul class="gs_img">
+        <li><img src="./img/p7.jpg" alt="x"></li>
+      </ul>
+      <ul class="gs_txt">
+        <li>메리티파티 머그 4P 세트</li>
+        <li><p class="price">15,900원</p></li>
+      </ul>
+    </a>
+   </div>
+   <!-- gshop_box7 end -->
+   <div class="gshop_box">
+    <a href="#">
+      <ul class="gs_img">
+        <li><img src="./img/p8.jpg" alt="x"></li>
+      </ul>
+      <ul class="gs_txt">
+        <li>ON 심플 민트 한수저 4벌세트</li>
+        <li><p class="sale">33%</p><p class="cost">29,900원</p><p class="price">19,900원</p></li>
+      </ul>
+    </a>
+   </div>
+   <!-- gshop_box8 end -->
+   <div class="gshop_box">
+    <a href="#">
+      <ul class="gs_img">
+        <li><img src="./img/p9.jpg" alt="x"></li>
+      </ul>
+      <ul class="gs_txt">
+        <li>솔티브런치 트리플 수저통 세트</li>
+        <li><p class="price">19,900원</p></li>
+      </ul>
+    </a>
+   </div>
+   <!-- gshop_box9 end -->
+   <div class="gshop_box">
+    <a href="#">
+      <ul class="gs_img">
+        <li><img src="./img/p10.jpg" alt="x"></li>
+      </ul>
+      <ul class="gs_txt">
+        <li>[디즈니] 실리콘 장갑 2P세트 미키</li>
+        <li><p class="price">13,900원</p></li>
+      </ul>
+    </a>
+   </div>
+   <!-- gshop_box10 end -->
+   <div class="gshop_box">
+    <a href="#">
+      <ul class="gs_img">
+        <li><img src="./img/p11.jpg" alt="x"></li>
+      </ul>
+
+      <ul class="gs_txt">
+        <li>[디즈니] 크리스마스 찬기 D15 그린</li>
+        <li><p class="price">9,900원</p></li>
+      </ul>
+    </a>
+   </div>
+   <!-- gshop_box11 end -->
+   <div class="gshop_box">
+    <a href="#">
+      <ul class="gs_img">
+        <li><img src="./img/p12.jpg" alt="x"></li>
+      </ul>
+      <ul class="gs_txt">
+        <li>메리베이커리 입체 머그 트리 D8.2</li>
+        <li><p class="price">10,900원</p></li>
+      </ul>
+    </a>
+   </div>
+   <!-- gshop_box12 end -->
+  </div>
+  <!-- gshop_wrap end -->
+</div>
+<!-- con2 end -->
+<div class="con3">
+  <div class="deel_wrap">
+    <div class="tit">
+      <a href="#">주목해야 할 기획전 ></a>
+  
+    </div>
+    <!-- con3 tit end -->
+    <div class="deel_box">
+     <a href="#">
+      <ul class="deel_img">
+        <li><img src="./img/post1.jpg" alt="x"></li>
+      </ul>
+     </a>
+    </div>
+    <!-- deel_box1 end -->
+    <div class="deel_box">
+      <a href="#">
+       <ul class="deel_img">
+         <li><img src="./img/post2.jpg" alt="x"></li>
+       </ul>
+      </a>
+    </div>
+    <!-- deel_box2 end -->
+    <div class="deel_box2">
+      <a href="#">
+       <ul class="deel2_img">
+         <li><img src="./img/post3.jpg" alt="x"></li>
+         <li><img src="./img/post4.jpg" alt="x"></li>
+         <li><img src="./img/post5.jpg" alt="x"></li>
+         <li><img src="./img/post6.jpg" alt="x"></li>
+         <li><img src="./img/post7.jpg" alt="x"></li>
+         <li><img src="./img/post8.jpg" alt="x"></li>
+       </ul>
+      </a>
+    </div>
+  </div>
+  <!-- deel_wrap end -->
+</div>
+<!-- con3 end -->
+<div class="con4">
+  <div class="c_slide_wrap">
+   <div class="c_slide">
+    <a href="#">
+      <img src="./img/s1.jpg" alt="x">
+    </a>
+    <a href="#">
+      <img src="./img/s2.jpg" alt="x">
+    </a>
+  </div>
+  </div>
+  <!-- c_slide_wrap end -->
+</div>
+<!-- con4 end -->
+<div class="con5">
+  <div class="tit">
+    <a href="#">모던 MD의추천</a>
+  </div>
+  <div class="md_wrap">
+    <div class="md">
+      <a href="#"><img src="./img/md1.jpg" alt="x"></a>
+    </div>
+    <div class="md_box">
+      <a href="#"><img src="./img/md2.jpg" alt="x">
+      <p>펫본 크리스마스 핀 3P 세트</p>
+    <span>9,900원</span></a>
+    <a href="#"><img src="./img/md3.jpg" alt="x">
+      <p>펫본 크리스마스 핀 3P 세트</p>
+    <span>9,900원</span></a>
+    <a href="#"><img src="./img/md4.jpg" alt="x">
+      <p>펫본 크리스마스 핀 3P 세트</p>
+    <span>9,900원</span></a>
+    <a href="#"><img src="./img/md5.jpg" alt="x">
+      <p>펫본 크리스마스 핀 3P 세트</p>
+    <span>9,900원</span></a>
+    <a href="#"><img src="./img/md6.jpg" alt="x">
+      <p>펫본 크리스마스 핀 3P 세트</p>
+      <span>9,900원</span></a>
+      <a href="#"><img src="./img/md7.jpg" alt="x">
+        <p>펫본 크리스마스 핀 3P 세트</p>
+      <span>9,900원</span></a>
+    </div>
+    <!-- md_box end -->
+  </div>
+  <!-- md_wrap end -->
+</div>
+<!-- con5 end -->
+
+<div class="con7">
+  <div class="item_banner">
+    <a href="#"><img src="./img/a1.jpg" alt="x"></a>
+    <a href="#"><img src="./img/a2.jpg" alt="x"></a>
+    <a href="#"><img src="./img/a3.jpg" alt="x"></a>
+
+  </div>
+</div>
+<!-- con7 end -->
+</div>
+   <!-- contents container end -->
+
+
+  </section>
+  <!-- contents end -->
+<footer id="footer">
+ <div class="container">
+  <div class="copyright">
+   <div class="tit">
+    <img src="./img/flogo.png" alt="x">
+   </div>
+   <div class="copy">
+    <p>주소 :
+      서울특별시 구로구 경인로 662 (디큐브시티) 14층<br>
+     회사명 : MH&Co. <br>
+     대표이사 : 오상흔 <br>
+     사업자등록번호 : 821-87-00617 <br>
+     통신판매업번호 : 2017-서울구로-1368l <br>
+     개인정보책임자 : 이효영 <br>
+     copyright. 2020. modernhousemall.com. All rights reserved.</p>
+    <p class="fco">고객님은 안전거래를 위해 결제 시 <br> 저희 사이트에서 가입한 구매안전 서비스를 이용하실 수 있습니다. <br>
+     <a href="#">KCP 가입 확인</a> </p>
+  </div>
+</div>
+<!-- copyright end -->
+<div class="center">
+ <div class="tit">
+  <p>고객센터</p>
+ </div>
+ <div class="counsel">
+  <ul>
+    <li><a href="#">1:1 고객문의 ></a></li>
+    <li><a href="#">대량구매(OEM)·협찬·입점제의 ></a></li>
+    <li class="number"><a href="#">1899-0811</a></li>
+    <li><span>평일 09:00 - 17:00 ㅣ 점심시간 11:30 - 12:30</span></li>
+  </ul>
+ </div>
+ <div class="instar">
+  <a href="#"><img src="./img/footer_sns01.png" alt="x"></a>
+  <a href="#"><img src="./img/footer_sns03.png" alt="x"></a>
+  <a href="#"><img src="./img/footer_sns04.png" alt="x"></a>
+  <a href="#"><img src="./img/footer_sns05.png" alt="x"></a>
+ </div>
+</div>
+<!-- center end -->
+<div class="fmenu">
+  <a href="#">회사소개</a>
+  <a href="#">공지사항</a>
+  <a href="#">이용약관</a>
+  <a href="#"><strong>개인정보처리방침</strong></a>
+  <a href="#">인재채용</a>
+  <a href="#">1:1문의</a>
+</div>
+<!-- fmenu end -->
+    </div>
+  </footer>
+  <!-- footer end -->
+ </div>
+ <!-- wrap end -->
+
+ <div class="side_btn">
+  <ul>
+   <li id="message"><img id="m_open" src="./img/message.webp" alt="x"><i id="m_close" class="fa-solid fa-xmark"></i></li>
+   <li><a href="#"><img src="./img/category-icon1.svg" alt="x"></a></li>
+   <li id="topBtn"><img src="./img/top-btn.svg" alt="x"></li>
+  </ul>
+ </div>
+
+<div class="message_wrap">
+  <div class="message_box">
+    <div class="home">
+      <div class="tit">
+        <ul>
+          <li><img src="./img/imecotxt.webp" alt="x"></li>
+          <li><p>아임에코몰</p><span>운영시간보기 ></span></li>
+        </ul>
+      </div>
+      <!-- tit end -->
+      <div class="txt">
+        <div class="info">
+          <ul>
+            <li><img src="./img/imecotxt.webp" alt="x"></li>
+            <li><p>아임에코몰</p><span>아임에코몰에 오신 것을 환영해요😄<br>궁금한 사항을 선택해 주세요.</span></li>
+          </ul>
+        </div>
+        <!-- info end -->
+        <div class="inquiry">
+          <button>문의하기<i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+        <div class="info_txt">
+          <p><span>●</span>몇 분 내에 답변 받으실 수 있어요</p>
+        </div>
+      </div>
+      <!-- txt end -->
+      <div class="call">
+        <p>다른방법으로 문의</p>
+        <i class="fa-solid fa-phone"></i>
+      </div>
+      <!-- call end -->
+      <div class="channel">
+        <p>채널톡 이용중</p>
+      </div>
+    </div>
+    <!-- home end -->
+  </div>
+  <!-- message_box end -->
+   <div class="message_menu">
+    <ul>
+      <li><i class="fa-solid fa-house"></i><p>홈</p></li>
+      <li><i class="fa-solid fa-comment"></i><p>대화</p></li>
+      <li><i class="fa-solid fa-gear"></i><p>설정</p></li>
+    </ul>
+   </div>
+   <!-- message_menu end -->
+</div>
+<!-- message_wrap end -->
+
+
+</body>
+</html>

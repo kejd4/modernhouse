@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Demo styles -->
+  <style>
+ 
+    .swiper-button-prev{position:absolute; top:460px; left:47%; z-index:90;}
+    .swiper-button-next:after, .swiper-button-prev:after{font-size:1.3em; color:#ffffff;} 
+    .swiper-button-next{position:absolute; top:460px; right:47%; z-index:90;}
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+      bottom:25px; color:#ffffff; font-weight:bold; font-size:1.2em; width:120px; background:#00000050; left:46.8%; height:30px; line-height:30px; border-radius:15px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Swiper -->
+   <nav id="main">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper slide_wrap">
+      <div class="swiper-slide slide s1">
+        <p class="txt1">We are closer to the zero.</p>
+      <p class="txt2">더 가볍게, 더무해하게, 아임에코는 환경에남기는 발자국을 zero에 가깝게 만듭니다. <br> 지구와 나에게 더 가치있는 소비를 하세요.</p>
+      <p class="txt3"><a href="#">zero-waste</a></p>
+      </div>
+      <div class="swiper-slide slide s2">
+        <p class="txt1">현대카드 Our Bag <span class="txt1_span1">with</span><span class="txt1_span2"> I'm eco</span></p>
+      <p class="txt2">현대카드와 아임에코에서 회수한 PET병을 재활용하여 만든 <br> Our Bag을 지금 만나보세요!</p>
+      <p class="txt3"><a href="#">구매하러 가기</a></p>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</nav>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      loop:true,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>
